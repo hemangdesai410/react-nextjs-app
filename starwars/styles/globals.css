@@ -19,11 +19,15 @@ a {
 .navbar {
     position: fixed;
     right: -760px;
-    width: 200px;
-    border: 3px solid rgb(185, 185, 185);
-    background:rgb(185, 185, 185);
+    width: 275px;
+    height: 35px;
+    border: 1px solid rgb(35, 42, 116);
+    border-radius: 5px;
+    background:rgb(147, 205, 255);
     margin-bottom: 20px;
     margin-top: 5px;
+    font-size: 24px;
+    color:rgb(62, 73, 203)
 }
 
 .characters, .starships, .planets {

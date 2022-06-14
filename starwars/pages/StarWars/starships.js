@@ -24,7 +24,7 @@ export const getStaticProps = async () => {
 const Starships = ({ starships1, starships2, starships3, starships4 }) => {
     return (
         <div>
-            <Tag>StarWars StarShips</Tag>
+            <Tag size="lg" colorScheme="linkedin" borderRadius="full">StarWars StarShips</Tag>
             <Tabs>
                 <TabList>
                     <Tab>One</Tab>

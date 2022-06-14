@@ -35,7 +35,7 @@ export const getStaticProps = async () => {
 const Characters = ({ people1, people2, people3, people4, people5, people6 }) => {
     return (
         <div>
-            <Tag>StarWars Characters</Tag>
+            <Tag size="lg" colorScheme="red" borderRadius="full">StarWars Characters</Tag>
             <Tabs>
                 <TabList>
                     <Tab>One</Tab>

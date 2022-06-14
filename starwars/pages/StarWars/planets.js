@@ -1,14 +1,4 @@
 import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-} from '@chakra-ui/react'
-import { Divider } from '@chakra-ui/react'
-import {
   Tag,
   TagLabel,
   TagLeftIcon,
@@ -33,7 +23,7 @@ export const getStaticProps = async () => {
 const Planets = ({ planets1, planets2, planets3, planets4 }) => {
     return (
         <div>
-            <Tag>StarWars Planets</Tag>
+            <Tag size="lg" colorScheme="whatsapp" borderRadius="full">StarWars Planets</Tag>
             <Tabs>
                 <TabList>
                     <Tab>One</Tab>
